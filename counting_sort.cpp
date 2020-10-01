@@ -1,7 +1,7 @@
 #include<iostream>
 #include <stdio.h> 
 #include <string.h> 
-#define RANGE 255 
+#define RANGE 255 //Range is the upper bound on the number to be sorted [0,RANGE]
 using namespace std;
 void countSort(char arr[]) 
 { 
